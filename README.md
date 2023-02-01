@@ -1,2 +1,2 @@
-# github
- Meus trabalhos para o GitHub
+# Meus Exercícios
+ Meus exercícios para treinamento de programação
