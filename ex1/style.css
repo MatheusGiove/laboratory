@@ -1,0 +1,39 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+   background-color: #111;
+   color: #b2b2b2;
+   padding: 20px;
+   border-radius: 4px;
+   margin: 30px;
+}
+
+
+h1 {
+   text-align: center;
+   margin: 30px 0px;
+}
+
+h2 {
+   color: white;
+}
+
+strong {
+   color: #febe01;
+}
+
+button {
+   color: #332200;
+   background-color: #febe01;
+   padding: 12px 12px;
+   font-size: 1.1em;
+   border-radius: 4px;
+}
+
+p {
+   margin: 10px 0px;
+}
