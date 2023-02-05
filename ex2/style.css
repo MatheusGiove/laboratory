@@ -14,7 +14,6 @@
 
 body {
    background-color: var(--cor1);
-   max-width: 1000px;
    margin: auto;
 }
 
@@ -42,15 +41,16 @@ nav a {
 nav {
    display: flex;
    place-content: center;
-   
    flex-wrap: wrap;
    gap: 30px;
+   margin-bottom: 50px;
 }
 
 #principal {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   margin: 50px 0px;
+   max-width: 1000px;
+   margin: auto
 }
 
 .descricao {
@@ -111,7 +111,7 @@ nav {
 }
 
 .item {
-   grid-template-columns: repeat(2, auto);
+   grid-template-columns: auto 1fr;
    display: grid;
    gap: 10px 20px;
    padding: 20px;
@@ -123,4 +123,6 @@ footer {
    display: grid;
    text-align: center;
    align-content: center;
+   width: 100%;
+   margin-top: 50px;
 }
