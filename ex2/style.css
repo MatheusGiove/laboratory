@@ -13,7 +13,7 @@
 }
 
 body {
-   background-color: var(--cor2);
+   background-color: var(--cor1);
    max-width: 1000px;
    margin: auto;
 }
@@ -24,7 +24,7 @@ header {
    margin: 15px 0px;
 }
 
-a {
+nav a {
    background-color: white;
    color: black;
    font-weight: bold;
@@ -34,28 +34,93 @@ a {
    display: flex;
 }
 
-p {
+.descricao p {
+   line-height: 1.3;
    font-size: 20px;
 }
 
 nav {
    display: flex;
    place-content: center;
+   
    flex-wrap: wrap;
    gap: 30px;
 }
 
 #principal {
    display: grid;
-   grid-template-columns: repeat(2, auto);
+   grid-template-columns: repeat(2, 1fr);
    margin: 50px 0px;
 }
 
 .descricao {
    background-color: white;
    display: grid;
+   padding: 40px;
+   align-content: center;
+   justify-items: end;
+   gap: 20px;
+   text-align: right;
+   position: relative;
 }
 
-img {
+.detalhe {
+   width: 60px;
+   height: 4px;
+   background-color: #e21;
+   position: absolute;
+   top: 30px;
+   right: -30px;
+}
+
+.descricao a {
+   background-color: #e21;
+   text-transform: uppercase;
+   border-radius: 5px;
+   padding: 12px 24px;
+   text-decoration: none;
+   color: black;
+}
+
+.bike {
    width: 100%;
+   display: block;
+}
+
+.vantagens {
+   display: grid;
+   font-size: 4em;
+   color: var(--cor2);
+   font-weight: bold;
+   text-transform: uppercase;
+   padding: 40px;
+   text-align: right;
+   justify-content: end;
+   align-content: center;
+}
+
+.informacoes {
+   padding: 20px;
+   background-color: white;
+}
+
+.informacoes p {
+   grid-area: 2 / 2;
+   display: grid;
+   font-size: 20px;
+}
+
+.item {
+   grid-template-columns: repeat(2, auto);
+   display: grid;
+   gap: 10px 20px;
+   padding: 20px;
+}
+
+footer {
+   background-color: white;
+   height: 70px;
+   display: grid;
+   text-align: center;
+   align-content: center;
 }
