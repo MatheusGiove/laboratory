@@ -1,5 +1,6 @@
 # Meus Exercícios
  Meus exercícios para treinamento de programação
  
-* <github.com/MatheusGiove/meus-exercicios/ex1>
-* <github.com/MatheusGiove/meus-exercicios/ex2>
+<a href="github.com/MatheusGiove/meus-exercicios/ex1">EXERCÍCIO 1</a>
+<br>
+<a href="github.com/MatheusGiove/meus-exercicios/ex2">EXERCÍCIO 2</a>
