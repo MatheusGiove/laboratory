@@ -119,7 +119,6 @@ nav > a:hover {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px 20px;
-  border-left: 4px solid transparent;
 }
 
 .item > p {
@@ -135,7 +134,7 @@ nav > a:hover {
 }
 
 .item:hover {
-  border-color: var(--cor3);
+  border-left: 4px solid var(--cor3);
 }
 
 footer {
