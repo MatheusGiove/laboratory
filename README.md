@@ -1,8 +1,8 @@
 # Meus Exercícios
- Meus exercícios para treinamento de programação
- 
+Esses são meus exercícios que fiz durante meu treinamento front-end
+ <hr>
 <ul>
-  <li>github.com/MatheusGiove/meus-exercicios/ex1
-  <li>github.com/MatheusGiove/meus-exercicios/ex2
-  <li>github.com/MatheusGiove/meus-exercicios/ex3
+  <li><a href="https://matheusgiove.github.io/meus-exercicios/ex1">EXERCÍCIO 1</a>
+  <li><a href="https://matheusgiove.github.io/meus-exercicios/ex2">EXERCÍCIO 2</a>
+  <li><a href="https://matheusgiove.github.io/meus-exercicios/ex3">EXERCÍCIO 3</a>
 </ul>
